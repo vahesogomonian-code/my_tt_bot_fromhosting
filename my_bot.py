@@ -3,7 +3,7 @@ import os
 import yt_dlp
 
 # Вставил твой токен напрямую
-token = "7316617770:AAFPKR0ZEp-24AEeEYrAmXg4d6tcNoeCmCY"
+token = 
 
 # Папка для временных видео (подходит и для Termux, и для Choreo)
 if os.path.exists("/storage/emulated/0/"):
