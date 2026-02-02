@@ -3,7 +3,7 @@ import os
 import yt_dlp
 
 # 1. ПОЛУЧАЕМ ТОКЕН
-# Сначала проверяем Secrets на хостинге, если там пусто — берем этот
+# Сначала проверяем Secrets на хостинге, если пусто — берем из кода
 token = os.getenv("BOT_TOKEN") 
 if not token:
     token = "7316617770:AAFPKR0ZEp-24AEeEYrAmXg4d6tcNoeCmCY"
@@ -62,4 +62,4 @@ def handle_message(message):
 # 3. ЗАПУСК
 print("Бот успешно запущен!")
 bot.infinity_polling(skip_pending=
-    True)
+                     True)
